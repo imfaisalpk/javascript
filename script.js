@@ -1,23 +1,29 @@
+
+
+
+
+
+
 // <!--
 
-function hello(){
-    alert("Hello Faisal Baby!");
-}
+// function hello(){
+//     alert("Hello Faisal Baby!");
+// }
 
-var a = 10;
-var b = 5;
+// var a = 10;
+// var b = 5;
 
-switch(a){
-    case 5:
-        alert("value is 5");
-        break;
-    case 10:
-        alert('value is 10');
-        break;
-    default:
-        alert("default");
-        break;
-}
+// switch(a){
+//     case 5:
+//         alert("value is 5");
+//         break;
+//     case 10:
+//         alert('value is 10');
+//         break;
+//     default:
+//         alert("default");
+//         break;
+// }
 
 
 
