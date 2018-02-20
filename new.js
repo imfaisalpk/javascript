@@ -1,7 +1,29 @@
 
-var str = "mfaisal";
-var arriya = str.split("");
-console.log(arriya);
+var number = 15;
+var y = new Number(number);
+console.log(typeof(y));
+console.log(typeof(number));
+// console.log(number.toString(16));
+// console.log(number.toString(8));
+// console.log(number.toString(2));
+
+
+
+// var x = -2;
+// var y = 0;
+// console.log(0xAF);
+
+
+
+
+// var num = (0.2*10+0.1*10)/10;
+// console.log(num);
+
+
+
+// var str = "mfaisal";
+// var arriya = str.split("");
+// console.log(arriya);
 
 // console.log(str.concat(":","genius"))
 
