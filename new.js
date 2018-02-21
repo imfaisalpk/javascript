@@ -1,8 +1,43 @@
 
-var number = 15;
-var y = new Number(number);
-console.log(typeof(y));
-console.log(typeof(number));
+
+function getRand(min,max){
+    return Math.floor(Math.random()*(max-min+1))+min;
+}
+
+console.log(getRand(1,100));
+
+
+// console.log(Math.random());
+
+// console.log(Math.cos(0*Math.PI/180));
+
+
+// var x = 23;
+// var y = x.MAX_VALUE;
+// console.log(x);
+// console.log(y);
+
+
+
+// console.log(Number.MIN_VALUE);
+
+// console.log(parseFloat("10.100"));
+// console.log(parseInt("10.10"));
+
+// console.log(Number(new Date("01-01-2001")));
+// console.log(typeof(Number("10L"))+" "+Number("10 4"));
+
+
+// var temp = 32;
+// console.log(temp.valueOf())
+
+// var number = 9.656;
+
+// console.log(number.toPrecision(2));
+
+// var y = new Number(number);
+// console.log(typeof(y));
+// console.log(typeof(number));
 // console.log(number.toString(16));
 // console.log(number.toString(8));
 // console.log(number.toString(2));
