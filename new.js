@@ -1,10 +1,97 @@
 
+// ARRAYS
 
-function getRand(min,max){
-    return Math.floor(Math.random()*(max-min+1))+min;
-}
+var points = [40, 100, 1, 5, 25, 10];
 
-console.log(getRand(1,100));
+points.sort(function(a,b){return a-b});
+
+console.log(points);
+
+console.log(Math.max.apply(null,points));
+
+// function displayDate(){
+//     document.getElementById("btn_click").innerHTML = Date();
+// }
+
+
+// var items =["vegs","fruits","soap",4.5,45,'a'];
+// var myGirls = ["Cecilie", "Lone"];
+
+// // var array = [0,0]
+// // array[0] = items;
+// // array[1] =  displayDate;
+// console.log(items);
+
+// console.log(items.concat(myGirls));
+
+
+// console.log(items.shift());
+// console.log(items.splice(0,3));
+
+// console.log(items);
+
+
+// console.log(items.unshift("mfaisal"));
+
+// // delete items[0];
+
+// console.log(items);
+
+
+// items.push("mfaisal");
+
+// items[items.length] = "mali";
+
+// var poped = items.pop();
+// console.log(poped);
+
+// for(i = 0;i<items.length;i++){
+//     console.log(items[i]);
+// }
+
+// console.log(items.constructor.toString().indexOf("Array")>-1);
+// console.log(items instanceof Array);
+// console.log(items.join("$"));
+
+// console.log(array.length);
+// console.log(array.sort());
+
+
+
+
+
+// console.log(items);
+// items[0] = "Meat";
+// console.log(items[0]);
+
+// var itemswithNew = new Array("vegs","fruits","soap")  // this one is bit slower
+
+
+
+
+// DATES
+// var today, someday;
+// today = new Date();
+// someday = new Date();
+// someday.setFullYear(2020,2,22);
+
+// if(today < someday){
+//     console.log("Future is coming!");
+// }
+// else{
+//     console.log("We are back in time!");
+// }
+
+
+// var date = new Date("2015-03-25");
+// console.log(date.getTime());
+
+
+// function getRand(min,max){
+//     return Math.floor(Math.random()*(max-min+1))+min;
+// }
+
+// console.log(getRand(1,100));
 
 
 // console.log(Math.random());
@@ -80,10 +167,6 @@ console.log(getRand(1,100));
 // console.log("part: "+part);
 
 
-
-function displayDate(){
-    document.getElementById("btn_click").innerHTML = Date();
-}
 
 
 
