@@ -1,29 +1,100 @@
 
-// BOOLEAN
+// LOOPS
 
-var text="";
-switch(new Date().getDay()){
-    case 0:
-    case 1:
-    case 2:
-        text = "Start of the week."
-        break;
-    case 3:
-    case 4:
-        text = "Thats middle of the week."
-        break;
-    
-    case 5:
-    case 6:
-        text = "Bad Weekend."
-        break;
-    default:
-        text = "someother day."
-        break;
-
+alifAllah:{
+    console.log("yes!");
+    console.log("I am invincible");
+    break alifAllah;
+    console.log("and imfaisal");
 }
 
-console.log(text);
+
+
+// var arry = ["mfaisal","amad","mali","faisal"]
+// var i = 0;
+// var text="";
+
+// for (;arry[i];) {
+//     text += arry[i] + "<br>";
+//     i++;
+// }
+// console.log(text);
+
+
+// while (arry[i]) {
+//     text += arry[i] + "<br>";
+//     i++;
+// }
+// console.log(text);
+
+
+// while(arry[i]){
+//     console.log(arry[i]);
+// }
+
+
+// var i =0;
+
+// do{
+//     console.log(i);
+//     i++;
+
+// }while(i<10);
+
+
+
+
+// var i = 0;
+// while(i<10){
+//     console.log(i);
+//     i++;
+// }
+
+
+// var car ={model:"2018",name:"BMW",price:"1m"};
+
+// for(c in car){
+//     console.log(car[c]);
+// }
+
+
+
+// var arry = ["mfaisal","amad","mali","faisal"]
+
+// for(i=0, text="";i<arry.length;i++){
+//     console.log(arry[i]);
+//     text+=arry[i]+" ";
+// }
+
+// text = "only mfaisal";
+// console.log(text);
+
+
+// BOOLEAN
+
+// var text="";
+// switch(new Date().getDay()){
+//     case 0:
+//     case 1:
+//     case 2:
+//         text = "Start of the week."
+//         break;
+//     case 3:
+//     case 4:
+//         text = "Thats middle of the week."
+//         break;
+    
+//     case 5:
+//     case 6:
+//         text = "Bad Weekend."
+//         break;
+//     default:
+//         text = "someother day."
+//         break;
+
+// }
+
+// console.log(text);
 
 // var x = 5;
 // var y = "5";
