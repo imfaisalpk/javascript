@@ -1,13 +1,65 @@
 
+// BOOLEAN
+
+var text="";
+switch(new Date().getDay()){
+    case 0:
+    case 1:
+    case 2:
+        text = "Start of the week."
+        break;
+    case 3:
+    case 4:
+        text = "Thats middle of the week."
+        break;
+    
+    case 5:
+    case 6:
+        text = "Bad Weekend."
+        break;
+    default:
+        text = "someother day."
+        break;
+
+}
+
+console.log(text);
+
+// var x = 5;
+// var y = "5";
+// if(x==y){
+//     console.log((x==y));
+// }
+// if(x===y){
+//     console.log((x===y));
+// }
+// else if(x!==y){
+//     console.log("x!==y");
+// }
+// else{
+//     console.log((x===y));    
+// }
+// var a = "5"+5 + 5;
+// console.log(a)
+
+
+// var x = true;
+// var obj = new Boolean(true);
+// console.log((x===obj))
+
+// var x = 0;
+
+// console.log(Boolean(x));
+
 // ARRAYS
 
-var points = [40, 100, 1, 5, 25, 10];
+// var points = [40, 100, 1, 5, 25, 10];
 
-points.sort(function(a,b){return a-b});
+// points.sort(function(a,b){return a-b});
 
-console.log(points);
+// console.log(points);
 
-console.log(Math.max.apply(null,points));
+// console.log(Math.max.apply(null,points));
 
 // function displayDate(){
 //     document.getElementById("btn_click").innerHTML = Date();
