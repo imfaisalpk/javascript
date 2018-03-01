@@ -1,5 +1,50 @@
 // EXTRAS
 
+// x = 5;
+// console.log(x);
+// var x=9;
+// console.log(x);
+
+
+
+// function myFunction(){
+//     var message, x;
+//     message = document.getElementById("message");
+//     message.innerHTML = "";
+//     x = document.getElementById("demo").value;
+//     try { 
+//         if(x == "") throw "empty";
+//         if(isNaN(x)) throw "not a number";
+//         x = Number(x);
+//         if(x < 5) throw "too low";
+//         if(x > 10) throw "too high";
+//     }
+//     catch(err) {
+//         message.innerHTML = "Input is " + err;
+//     }
+// }
+
+
+// try{
+//     console.log("sdksdfjksfjkfsfhsjkfhs");
+//     // debugger;
+//     throw "Deliberate Error!";
+// }catch(err){
+//     console.log(err);
+// }
+// finally{
+//     console.log("Finally..");
+// }
+
+
+
+// var pattern = /i+/i;
+
+// var text = "MY NAME IS MFAISAL";
+
+// console.log(text.search(pattern));
+
+
 // console.log(0&1);
 // console.log(0|1);
 // console.log(0^1);
