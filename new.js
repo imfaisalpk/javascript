@@ -1,12 +1,38 @@
+// EXTRAS
+
+// console.log(0&1);
+// console.log(0|1);
+// console.log(0^1);
+// console.log(~1);
+// console.log(7>>2);   // 00000000000000000000000000000111 >> 00000000000000000000000000000001
+// console.log(7<<2);  // 00000000000000000000000000000111 <<  00000000000000000000000000011100
+// console.log(7>>>2); // 00000000000000000000000000000111 >>> 00000000000000000000000000000001
+
+// console.log(dec2bin(7));
+// console.log(bin2dec(111));
+
+
+// function bin2dec(bin){
+//     return parseInt(bin,2).toString(10);
+// }
+
+// function dec2bin(dec){
+//     return dec.toString(2);
+// }
+
+// console.log(String(31+32));
+
+// console.log((new Date()).constructor === Date);
+
 
 // LOOPS
 
-alifAllah:{
-    console.log("yes!");
-    console.log("I am invincible");
-    break alifAllah;
-    console.log("and imfaisal");
-}
+// alifAllah:{
+//     console.log("yes!");
+//     console.log("I am invincible");
+//     break alifAllah;
+//     console.log("and imfaisal");
+// }
 
 
 
