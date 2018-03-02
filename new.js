@@ -1,16 +1,65 @@
+// OBJECTS
+
+function Person(name,age,gender){
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
+    this.getPerson = function(){
+        return this.name+", "+this.age+", "+this.gender;
+    }
+}
+
+Person.prototype.test ="testValue";
+
+var student = new Person("mfaisal",24,"male");
+console.log(student.getPerson())
+
+for(key in student){
+    console.log(student[key]);
+}
+
+// var student = {
+//     name: "mfaisal",
+//     rollNo: 01,
+//     class: "Masters",
+//     getStudentInfo: function(){
+//         return this.name+", "+this.rollNo+", "+this.class;
+//     }
+
+// }
+
+// console.log(student.getStudentInfo())
+// console.log(student["name"])
+// console.log(student.name)
+
+// var person = {fname:"John", lname:"Doe", age:25, addAge: function(){this.age++;}};
+
+// console.log(person.age)
+// person.addAge()
+// console.log(person.age)
+
+// person.gender = "male";
+// delete person.age;
+// var key;
+
+// for(key in person){
+//     console.log(person[key]);
+// }
+
+
 // EXTRAS
 
-var text = '{ "employees" : [' +
-'{ "firstName":"John" , "lastName":"Doe" },' +
-'{ "firstName":"Anna" , "lastName":"Smith" },' +
-'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+// var text = '{ "employees" : [' +
+// '{ "firstName":"John" , "lastName":"Doe" },' +
+// '{ "firstName":"Anna" , "lastName":"Smith" },' +
+// '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
 
-var obj = JSON.parse(text);
-var i=0;
-var len = obj.employees.length;
-for(i=0;i<len;i++){
-    console.log(obj.employees[i].firstName+" "+obj.employees[i].lastName);
-}
+// var obj = JSON.parse(text);
+// var i=0;
+// var len = obj.employees.length;
+// for(i=0;i<len;i++){
+//     console.log(obj.employees[i].firstName+" "+obj.employees[i].lastName);
+// }
 
 
 
