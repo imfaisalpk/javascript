@@ -1,5 +1,22 @@
 // EXTRAS
 
+var text = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+var obj = JSON.parse(text);
+var i=0;
+var len = obj.employees.length;
+for(i=0;i<len;i++){
+    console.log(obj.employees[i].firstName+" "+obj.employees[i].lastName);
+}
+
+
+
+// console.log('mfaisal');
+
+
 // x = 5;
 // console.log(x);
 // var x=9;
