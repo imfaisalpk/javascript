@@ -1,22 +1,56 @@
-// OBJECTS
+// FUNCTIONS
 
-function Person(name,age,gender){
-    this.name = name;
-    this.age = age;
-    this.gender = gender;
-    this.getPerson = function(){
-        return this.name+", "+this.age+", "+this.gender;
+var person = {
+    firstName:"John",
+    lastName: "Doe",
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
     }
 }
 
-Person.prototype.test ="testValue";
-
-var student = new Person("mfaisal",24,"male");
-console.log(student.getPerson())
-
-for(key in student){
-    console.log(student[key]);
+var myObject = {
+    firstName:"Mary",
+    lastName: "Doe",
 }
+
+
+
+console.log(person.fullName.apply(myObject));
+
+
+// (function() {console.log("Self-Invoking Function")})();
+
+
+// var getMessage = new Function("console.log('Pakistan')");
+
+// getMessage();
+
+// var x = function(){
+//     console.log(arguments.length)
+// }
+
+// console.log(x.toString());
+
+
+// OBJECTS
+
+// function Person(name,age,gender){
+//     this.name = name;
+//     this.age = age;
+//     this.gender = gender;
+//     this.getPerson = function(){
+//         return this.name+", "+this.age+", "+this.gender;
+//     }
+// }
+
+// Person.prototype.test ="testValue";
+
+// var student = new Person("mfaisal",24,"male");
+// console.log(student.getPerson())
+
+// for(key in student){
+//     console.log(student[key]);
+// }
 
 // var student = {
 //     name: "mfaisal",
